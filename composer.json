@@ -1,6 +1,6 @@
 {
     "name": "dmtq/module-core",
-    "description": "Core",
+    "description": "DMTQ Core module for Magento 2. All DMTQ modules requires this module.",
     "type": "magento2-module",
     "license": "GPL-3.0",
     "minimum-stability": "dev",
