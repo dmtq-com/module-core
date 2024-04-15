@@ -1,0 +1,20 @@
+{
+    "name": "dmtq/module-core",
+    "description": "Core",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "minimum-stability": "dev",
+    "version": "1.0.0",
+    "require": {
+        "php": "~8.1.0||~8.2.0",
+        "magento/framework": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "DMTQ\\Core\\": ""
+        }
+    }
+}
