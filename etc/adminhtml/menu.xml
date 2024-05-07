@@ -3,5 +3,6 @@
 	<menu>
 		<add id="DMTQ_Core:top_level" title="DMTQ" module="DMTQ_Core" sortOrder="999" resource="Magento_Backend::content"/>
         <add id="DMTQ_Core:setting" title="Setting" module="DMTQ_Core" sortOrder="100" resource="Magento_Backend::content" parent="DMTQ_Core:top_level" />
+        <add id="DMTQ_Core::configuration" title="Configuration" module="DMTQ_Core" sortOrder="100" resource="Magento_Backend::content" parent="DMTQ_Core:setting" action="admin/system_config/edit/section/dmtq"/>
     </menu>
 </config>

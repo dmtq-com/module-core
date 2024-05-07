@@ -4,5 +4,17 @@
         <tab id="dmtq" translate="label" sortOrder="400" class="dmtq-extensions">
             <label>DMTQ</label>
         </tab>
+        <section id="dmtq" translate="label" type="text" sortOrder="8888" showInDefault="1" showInWebsite="0" showInStore="0">
+            <label>Configuration</label>
+            <tab>dmtq</tab>
+            <resource>DMTQ_Core::configuration</resource>
+            <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
+                <label>General</label>
+                <field id="enabled" translate="label comment" sortOrder="1" type="select" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Enable</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+            </group>
+        </section>
     </system>
 </config>
